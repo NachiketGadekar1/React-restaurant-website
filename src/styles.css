@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #dce4d8;
+    display: grid;
+    grid-template-rows: auto 1fr auto; /* Create three rows: header, main content, and footer */
+    grid-template-columns: 1fr; /* Single column for the entire content */
+  }
+
+  /*.header {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    background-color: #f0eeee; 
+    padding: 10px; 
+  }*/
+
+ 
+.nav {
+    background-color: #333;
+    font-size: small;
+    padding: 10px 0;
+    display: grid;
+    grid-template-columns: repeat(4, 100vw);
+    gap: 10px; /* Adjust the gap between items */
+    justify-items: center; /* Center the items horizontally */
+    align-items: center; /* Center the items vertically */
+  }
+  
+  /* Style the navigation links */
+  .nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex; /* Use flexbox to center the links horizontally */
+    justify-content: center; /* Center the links horizontally within the flex container */
+    align-items: center; /* Center the links vertically within the flex container */
+    gap: 3vw; /* Adjust the gap between links */
+  }
+  
+  .nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  
+  .main {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr); /* Create 12 equal columns */
+    grid-template-rows: auto;
+  }
+
+  .footer {
+    display: flex; /* Use flexbox for the footer to align elements horizontally */
+    justify-content: center; /* Center content in the footer */
+    align-items: center; /* Vertically center content in the footer */
+    background-color: #ccc3c3; /* Add a background color for the footer */
+    padding: 10px; /* Add padding for spacing */
+  }

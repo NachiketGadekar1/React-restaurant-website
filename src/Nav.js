@@ -1,13 +1,17 @@
 import React from 'react';
+import './styles.css';
 
 function Nav() {
   return (
-    <nav>      
+    <nav className='nav'>
       <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/about">About</a></li>
-        <li><a href="/services">Services</a></li>
-        <li><a href="/contact">Contact</a></li>
+      <img src="my-app/public/littlelemon.jpg" alt="Little Lemon Logo"></img>
+        <li><a href="/">HOME</a></li>
+        <li><a href="/about">ABOUT</a></li>
+        <li><a href="/services">MENU</a></li>
+        <li><a href="/contact">RESERVATIONS</a></li>
+        <li><a href="/contact">ORDER ONLINE</a></li>
+        <li><a href="/contact">LOGIN</a></li>
       </ul>
     </nav>
   );
