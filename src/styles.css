@@ -1,9 +1,9 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #dce4d8;
-    display: grid;
-    grid-template-rows: auto 1fr auto; /* Create three rows: header, main content, and footer */
-    grid-template-columns: 1fr; /* Single column for the entire content */
+    display:grid;
+    grid-template-columns: repeat(12, 1fr); /* Create 12 equal columns */
+    grid-template-rows: auto;
   }
 
   /*.header {
@@ -16,11 +16,11 @@ body {
 
  
 .nav {
-    background-color: #333;
+    background-color: #8da586;
     font-size: small;
     padding: 10px 0;
     display: grid;
-    grid-template-columns: repeat(4, 100vw);
+    grid-template-columns: repeat(7, 100vw);
     gap: 10px; /* Adjust the gap between items */
     justify-items: center; /* Center the items horizontally */
     align-items: center; /* Center the items vertically */
@@ -44,15 +44,18 @@ body {
   
   
   .main {
-    display: grid;
-    grid-template-columns: repeat(12, 1fr); /* Create 12 equal columns */
-    grid-template-rows: auto;
+    
   }
 
   .footer {
-    display: flex; /* Use flexbox for the footer to align elements horizontally */
-    justify-content: center; /* Center content in the footer */
-    align-items: center; /* Vertically center content in the footer */
-    background-color: #ccc3c3; /* Add a background color for the footer */
+    
+    background-color: #8da586; /* Add a background color for the footer */
     padding: 10px; /* Add padding for spacing */
+   
   }
+
+/*More Components*/
+
+.home{
+  
+}
