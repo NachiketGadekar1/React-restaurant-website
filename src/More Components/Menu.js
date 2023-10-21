@@ -3,7 +3,7 @@ import React from 'react';
 function Menu() {
   return (
     <h1 className='menu'> 
-      <p>Litle lemon menu page</p>
+      Litle lemon menu page will be available soon!
     </h1>
   );
 }

@@ -12,6 +12,7 @@ root.render(
     <Router> {/* Wrap your App component with the Router */}
       <App />
     </Router>
+   
   </React.StrictMode>
   
 );
